@@ -85,7 +85,7 @@ if (!isset($_SESSION['IdCliente'])) {
           </a>
         </div>
         <div class="col-lg col-md-3 col-sm-12">
-          <a class="sinSubrayado" href="miCuentaPerfil.html">
+          <a class="sinSubrayado" href="miCuentaPerfil.php">
             <div class="d-grid gap-2 col-6 mx-auto ">
               <button type="button" class="btn btn-primary tituloReservarEvento tamañoBotonReservar colorBotonSecundario  letraRoboto negritaLetra">MI PERFIL</button> <br>
             </div>
