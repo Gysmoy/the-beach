@@ -28,7 +28,7 @@
     <!--BARRA DE NAVEGACIÓN-->
     <nav class="navbar bg-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="indexConSesion.html"> 
+          <a class="navbar-brand" href="indexConSesion.php"> 
             <img src="/imagenes/logo.PNG" alt="" height="100"> 
           </a>
             <p class="tipoLetraAdmi">
@@ -45,19 +45,19 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="administradorCarta.html">Actualizar Carta</a>
+                  <a class="nav-link " aria-current="page" href="administradorCarta.php">Actualizar Carta</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="administradorEvento.html">Actualizar Evento</a>
+                  <a class="nav-link " href="administradorEvento.php">Actualizar Evento</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="administradorReservas.html">Reservas</a>
+                    <a class="nav-link" href="administradorReservas.php">Reservas</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="#">Delivery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="accederCuenta.html">Cerrar Sesión</a>
+                    <a class="nav-link" href="accederCuenta.php?logout=true">Cerrar Sesión</a>
                 </li>
               </ul>
               

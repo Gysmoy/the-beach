@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,43 +22,44 @@
     <link rel="preload" href="interfaz.css" as="style">
     <link href="interfaz.css" rel="stylesheet">
 
-    <!--Icono-->  
+    <!--Icono-->
     <link rel="shortcut icon" type="image/x-icon" href="images/LogoPaginaWeb.JPG">
-       
+
 </head>
+
 <body class="bg-warning">
     <div>
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="indexConSesion.html"> 
-                <img src="/imagenes/logo.PNG" alt="" height="100"> 
-              </a>
-              
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="nosotrosConSesion.html" >NOSOTROS</a> 
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="reservarEventos.html">RESERVA DE EVENTOS</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="delivery-Platos.html">PEDIR AHORA</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contacto">CONTACTO</a>
-                  </li>
-                  <a href="miCuentaReservas.html">
-                    <button type="button" class="btn btn-primary btn-lg tipoLetraBoton botonPedirAhora botonPedir radioBoton">MI CUENTA</button>
-                  </a>
-                  
-                </ul>
-              </div>
+                <a class="navbar-brand" href="indexConSesion.php">
+                    <img src="/imagenes/logo.PNG" alt="" height="100">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotrosConSesion.php">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reservarEventos.php">RESERVA DE EVENTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="delivery-Platos.php">PEDIR AHORA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">CONTACTO</a>
+                        </li>
+                        <a href="miCuentaReservas.php">
+                            <button type="button" class="btn btn-primary btn-lg tipoLetraBoton botonPedirAhora botonPedir radioBoton">MI CUENTA</button>
+                        </a>
+
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
     </div>
 
     <main class="container align-items-center justify-content-center alto-200 p-3 mb-3">
@@ -67,30 +69,30 @@
                     <div class="row">
                         <div class="col-4 p-0 bg-white">
                             <div class="d-grid gap-2">
-                                <a class="btn btn-white border border-info" href="evento-Platos.html" role="button">
+                                <a class="btn btn-white border border-info" href="evento-Platos.php" role="button">
                                     <b>Platos</b>
                                     <img src="images/comer.png" class="img-fluid" alt="comer" width="30">
-                                </a>                            
+                                </a>
                             </div>
                         </div>
                         <div class="col-4 p-0 bg-white">
                             <div class="d-grid gap-2">
-                                <a class="btn btn-secondary text-white border border-info" href="evento-Entrada.html" role="button">
+                                <a class="btn btn-secondary text-white border border-info" href="evento-Entrada.php" role="button">
                                     <b>Entrada</b>
                                     <img src="images/postre.png" class="img-fluid" alt="postre" width="30">
-                                </a>                            
+                                </a>
                             </div>
                         </div>
                         <div class="col-4 p-0 bg-white">
                             <div class="d-grid gap-2">
-                                <a class="btn btn-white border border-info" href="evento-Bebidas.html" role="button">
+                                <a class="btn btn-white border border-info" href="evento-Bebidas.php" role="button">
                                     <b>Bebidas</b>
                                     <img src="images/espiritu.png" class="img-fluid" alt="Bebidas" width="30">
-                                </a>                            
+                                </a>
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
                 <div class="col-3 col-sm-4 col-md-5 col-lg-6 p-0 text-end">
                     <button class="btn border border-info bg-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
@@ -123,7 +125,7 @@
                                                     <option value="3">03</option>
                                                     <option value="4">04</option>
                                                     <option value="5">05</option>
-                                                  </select>
+                                                </select>
                                             </td>
                                             <td>Pollada Tradicional</td>
                                             <td>19.00</td>
@@ -139,7 +141,7 @@
                                                     <option value="3">03</option>
                                                     <option value="4">04</option>
                                                     <option value="5">05</option>
-                                                  </select>
+                                                </select>
                                             </td>
                                             <td>Pollada Tradicional</td>
                                             <td>19.00</td>
@@ -155,7 +157,7 @@
                                                     <option value="3">03</option>
                                                     <option value="4">04</option>
                                                     <option value="5">05</option>
-                                                  </select>
+                                                </select>
                                             </td>
                                             <td>Pollada Tradicional</td>
                                             <td>19.00</td>
@@ -175,11 +177,11 @@
                                 </div>
                             </div>
                             <div class="container text-center">
-                                <a class="btn btn-success rounded-3 border border-info text-white fs-5" href="reservarEventosPagos.html" role="button">
+                                <a class="btn btn-success rounded-3 border border-info text-white fs-5" href="reservarEventosPagos.php" role="button">
                                     <b>¡PAGAR AHORA!</b>
-                                </a> 
+                                </a>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -202,7 +204,7 @@
                                 <button type="button" class="btn btn-success rounded-3 text-white" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                     AÑADIR AL CARRITO
                                 </button>
-                                
+
                                 <!-- Modal -->
                                 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                                     <div class="modal-dialog">
@@ -227,10 +229,10 @@
                             </div>
                             <div class="row text-end">
                                 <div class="col-6">
-                                    Desde: 
+                                    Desde:
                                 </div>
                                 <div class="col-6">
-                                    <b>S/ 10.00</b> 
+                                    <b>S/ 10.00</b>
                                 </div>
                             </div>
                         </div>
@@ -252,16 +254,16 @@
                             </div>
                             <div class="row text-end">
                                 <div class="col-6">
-                                    Desde: 
+                                    Desde:
                                 </div>
                                 <div class="col-6">
-                                    <b>S/ 10.00</b> 
+                                    <b>S/ 10.00</b>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col">
                     <div class="card border-info rounded-3">
                         <img src="images/entrada/paltaRellena.JPG" class="card-img-top img-thumbnail rounded-3" alt="paltaRellena">
@@ -277,10 +279,10 @@
                             </div>
                             <div class="row text-end">
                                 <div class="col-6">
-                                    Desde: 
+                                    Desde:
                                 </div>
                                 <div class="col-6">
-                                    <b>S/ 10.00</b> 
+                                    <b>S/ 10.00</b>
                                 </div>
                             </div>
                         </div>
@@ -302,10 +304,10 @@
                             </div>
                             <div class="row text-end">
                                 <div class="col-6">
-                                    Desde: 
+                                    Desde:
                                 </div>
                                 <div class="col-6">
-                                    <b>S/ 10.00</b> 
+                                    <b>S/ 10.00</b>
                                 </div>
                             </div>
                         </div>
@@ -327,16 +329,16 @@
                             </div>
                             <div class="row text-end">
                                 <div class="col-6">
-                                    Desde: 
+                                    Desde:
                                 </div>
                                 <div class="col-6">
-                                    <b>S/ 10.00</b> 
+                                    <b>S/ 10.00</b>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col">
                     <div class="card border-info rounded-3">
                         <img src="images/entrada/papaHuancaina.JPG" class="card-img-top img-thumbnail rounded-3" alt="papaHuancaina">
@@ -352,10 +354,10 @@
                             </div>
                             <div class="row text-end">
                                 <div class="col-6">
-                                    Desde: 
+                                    Desde:
                                 </div>
                                 <div class="col-6">
-                                    <b>S/ 10.00</b> 
+                                    <b>S/ 10.00</b>
                                 </div>
                             </div>
                         </div>
@@ -377,10 +379,10 @@
                             </div>
                             <div class="row text-end">
                                 <div class="col-6">
-                                    Desde: 
+                                    Desde:
                                 </div>
                                 <div class="col-6">
-                                    <b>S/ 10.00</b> 
+                                    <b>S/ 10.00</b>
                                 </div>
                             </div>
                         </div>
@@ -402,16 +404,16 @@
                             </div>
                             <div class="row text-end">
                                 <div class="col-6">
-                                    Desde: 
+                                    Desde:
                                 </div>
                                 <div class="col-6">
-                                    <b>S/ 6.00</b> 
+                                    <b>S/ 6.00</b>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col">
                     <div class="card border-info rounded-3">
                         <img src="images/entrada/yucaDorada.JPG" class="card-img-top img-thumbnail rounded-3" alt="yucaDorada">
@@ -427,10 +429,10 @@
                             </div>
                             <div class="row text-end">
                                 <div class="col-6">
-                                    Desde: 
+                                    Desde:
                                 </div>
                                 <div class="col-6">
-                                    <b>S/ 5.00</b> 
+                                    <b>S/ 5.00</b>
                                 </div>
                             </div>
                         </div>
@@ -452,16 +454,16 @@
                             </div>
                             <div class="row text-end">
                                 <div class="col-6">
-                                    Desde: 
+                                    Desde:
                                 </div>
                                 <div class="col-6">
-                                    <b>S/ 10.00</b> 
+                                    <b>S/ 10.00</b>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col">
                     <div class="card border-info rounded-3">
                         <img src="images/entrada/ensaladaPalta.JPG" class="card-img-top img-thumbnail rounded-3" alt="ensaladaPalta">
@@ -477,10 +479,10 @@
                             </div>
                             <div class="row text-end">
                                 <div class="col-6">
-                                    Desde: 
+                                    Desde:
                                 </div>
                                 <div class="col-6">
-                                    <b>S/ 10.00</b> 
+                                    <b>S/ 10.00</b>
                                 </div>
                             </div>
                         </div>
@@ -502,10 +504,10 @@
                             </div>
                             <div class="row text-end">
                                 <div class="col-6">
-                                    Desde: 
+                                    Desde:
                                 </div>
                                 <div class="col-6">
-                                    <b>S/ 10.00</b> 
+                                    <b>S/ 10.00</b>
                                 </div>
                             </div>
                         </div>
@@ -527,10 +529,10 @@
                             </div>
                             <div class="row text-end">
                                 <div class="col-6">
-                                    Desde: 
+                                    Desde:
                                 </div>
                                 <div class="col-6">
-                                    <b>S/ 3.50</b> 
+                                    <b>S/ 3.50</b>
                                 </div>
                             </div>
                         </div>
@@ -552,10 +554,10 @@
                             </div>
                             <div class="row text-end">
                                 <div class="col-6">
-                                    Desde: 
+                                    Desde:
                                 </div>
                                 <div class="col-6">
-                                    <b>S/ 3.50</b> 
+                                    <b>S/ 3.50</b>
                                 </div>
                             </div>
                         </div>
@@ -577,10 +579,10 @@
                             </div>
                             <div class="row text-end">
                                 <div class="col-6">
-                                    Desde: 
+                                    Desde:
                                 </div>
                                 <div class="col-6">
-                                    <b>S/ 2.50</b> 
+                                    <b>S/ 2.50</b>
                                 </div>
                             </div>
                         </div>
@@ -592,4 +594,5 @@
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>

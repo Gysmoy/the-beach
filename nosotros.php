@@ -24,38 +24,100 @@
 <body class="colorBody">
     <!--BARRA DE NAVEGACIÓN-->
     <div>
-      <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="indexConSesion.html"> 
-              <img src="/imagenes/logo.PNG" alt="" height="100"> 
-            </a>
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="nosotrosConSesion.html" >NOSOTROS</a> 
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="reservarEventos.html">RESERVA DE EVENTOS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="delivery-Platos.html">PEDIR AHORA</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contacto">CONTACTO</a>
-                </li>
-                <a href="miCuentaReservas.html">
-                  <button type="button" class="btn btn-primary btn-lg tipoLetraBoton">MI CUENTA</button>
-                </a>
-                
-              </ul>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.php"> 
+                <img src="/imagenes/logo.PNG" alt="" height="100"> 
+              </a>
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.php" >NOSOTROS</a> 
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" data-bs-toggle="modal"  data-bs-target="#reservaEvento">RESERVA DE EVENTOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#pedirAhora">PEDIR AHORA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">CONTACTO</a>
+                  </li>
+                  <a href="accederCuenta.php">
+                    <button type="button" class="btn btn-primary btn-lg tipoLetraBoton">INICIAR SESIÓN</button>
+                  </a>
+                  
+                </ul>
+              </div>
             </div>
+          </nav>
+    </div>
+
+    <!--VENTANA EMERGENTE-->
+     <!-- Button trigger modal -->
+      
+     <!-- Modal RESERVAR EVENTO-->
+     <div class="modal fade" id="reservaEvento" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title formatoInformacion" id="reservaEvento">INFORMACIÓN</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-        </nav>
-  </div>
+          <div class="modal-body">
+            <p class="centrarTexto negritaTextoNosotros tamañoLetraTitulo letraEB">
+              ¡Inicie sesión! 
+              <br>
+            </p>
+            <p class="centrarTexto tamañoLetraCuerpo letraRoboto">
+            Para acceder a diferentes descuentos 
+            se le recomienta registrarse en
+            nuestra página.
+            </p>
+          </div>
+          <a class="sinSubrayado" href="accederCuenta.php" >
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button type="button" class="btn btn-primary letraRoboto negritaLetra botonOvalado" id="acceder" >INICIAR SESIÓN</button> <br>
+          </div> 
+          </a>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal PEDIR AHORA-->
+    <div class="modal fade" id="pedirAhora" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title formatoInformacion" id="pedirAhora">INFORMACIÓN</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="centrarTexto negritaTextoNosotros tamañoLetraTitulo letraEB">
+              ¡Inicie sesión! 
+              <br>
+            </p>
+            <p class="centrarTexto tamañoLetraCuerpo letraRoboto">
+            Para acceder a diferentes descuentos 
+            se le recomienta registrarse en
+            nuestra página.
+            </p>
+          </div>
+          <a class="sinSubrayado" href="accederCuenta.php" >
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button type="button" class="btn btn-primary letraRoboto negritaLetra botonOvalado" id="acceder" >INICIAR SESIÓN</button> <br>
+          </div> 
+          </a> 
+        </div>
+      </div>
+    </div>
+
+
     <!--PRESENTACION DE MISION VISION-->
     <main>
       <br>

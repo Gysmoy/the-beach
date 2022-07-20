@@ -33,7 +33,7 @@
     <div>
       <nav class="navbar navbar-expand-lg bg-light">
           <div class="container-fluid">
-            <a class="navbar-brand" href="indexConSesion.html"> 
+            <a class="navbar-brand" href="indexConSesion.php"> 
               <img src="/imagenes/logo.PNG" alt="" height="100"> 
             </a>
             
@@ -43,18 +43,18 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="nosotrosConSesion.html" >NOSOTROS</a> 
+                  <a class="nav-link" href="nosotrosConSesion.php" >NOSOTROS</a> 
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="reservarEventos.html">RESERVA DE EVENTOS</a>
+                  <a class="nav-link" href="reservarEventos.php">RESERVA DE EVENTOS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="delivery-Platos.html">PEDIR AHORA</a>
+                  <a class="nav-link" href="delivery-Platos.php">PEDIR AHORA</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#contacto">CONTACTO</a>
                 </li>
-                <a href="miCuentaReservas.html">
+                <a href="miCuentaReservas.php">
                   <button type="button" class="btn btn-primary btn-lg tipoLetraBoton">MI CUENTA</button>
                 </a>
                 
@@ -165,13 +165,13 @@
               SE HA RESERVADO SU EVENTO SATISFACTORIAMENTE</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <a class="sinSubrayado" href="indexConSesion.html" >
+          <a class="sinSubrayado" href="indexConSesion.php" >
             <div class="d-grid gap-2 col-6 mx-auto letraRoboto">
               <button type="button" class="btn btn-primary tituloReservarEvento tamañoBotonReservar botonOvalado">VOLVER A PÁGINA PRINCIPAL</button> <br>
           </div> 
           </a>
 
-          <a class="sinSubrayado" href="miCuentaReservas.html" >
+          <a class="sinSubrayado" href="miCuentaReservas.php" >
             <div class="d-grid gap-2 col-6 mx-auto letraRoboto">
               <button type="button" class="btn btn-primary tituloReservarEvento tamañoBotonReservar botonOvalado">VER MI RESERVA</button> <br>
           </div> 

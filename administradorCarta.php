@@ -28,7 +28,7 @@
     <!--BARRA DE NAVEGACIÓN-->
     <nav class="navbar bg-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="indexConSesion.html"> 
+          <a class="navbar-brand" href="indexConSesion.php"> 
             <img src="/imagenes/logo.PNG" alt="" height="100"> 
           </a>
             <p class="tipoLetraAdmi">
@@ -45,19 +45,19 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="administradorCarta.html">Actualizar Carta</a>
+                  <a class="nav-link active" aria-current="page" href="#">Actualizar Carta</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">Actualizar Evento</a>
+                  <a class="nav-link" href="administradorEvento.php">Actualizar Evento</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="administradorReservas.html">Reservas</a>
+                    <a class="nav-link" href="administradorReservas.php">Reservas</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="administradorReservasDelivery.html">Delivery</a>
+                  <a class="nav-link" href="administradorReservasDelivery.php">Delivery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="accederCuenta.html">Cerrar Sesión</a>
+                    <a class="nav-link" href="accederCuenta.php?logout=true">Cerrar Sesión</a>
                 </li>
               </ul>
               
@@ -75,13 +75,13 @@
                 <div class="row">
                     <div class="col-2"></div>
                     <div class="col">
-                        <h5 class="form-control bordenBoton card-title centrarTexto negritaTextoNosotros letraEB negritaLetra centrarTexto tamañoLetraActualiarPlato">ACTUALIZAR EVENTOS</h5>
+                        <h5 class="form-control bordenBoton card-title centrarTexto negritaTextoNosotros letraEB negritaLetra centrarTexto tamañoLetraActualiarPlato">ACTUALIZAR CARTA</h5>
                     </div>
 
                     <div class="col">
                         <a class="sinSubrayado" href="#" >
                             <div class="d-grid gap-2 col-6 mx-auto ">
-                              <button type="button" class="btn btn-primary tituloReservarEvento   letraRoboto negritaLetra botonOvalado ">AGREGAR EVENTO</button> <br>
+                              <button type="button" class="btn btn-primary tituloReservarEvento   letraRoboto negritaLetra botonOvalado ">AGREGAR CARTA</button> <br>
                           </div> 
                         </a>
                     </div>
@@ -95,17 +95,19 @@
             <table class="table-rwd">
               <tr>
                 <th></th>
-                <th>EVENTOS</th>
+                <th>NOMBRE DEL PLATO</th>
+                <th>TIPO</th>
                 <th>DESCRIPCIÓN</th>
                 <th>IMAGEN</th>
                 <th>PRECIO (S/.)</th>
               </tr>
               <tr>
                 <td>1</td>
-                <td>Bodas</td>
-                <td>Puede reservar su fecha especial para hacer los preparativos adecuados y así tenga la mejor celebración de su día tan especial.</td>
-                <td>boda.jpg</td>
-                <td>400.00</td>
+                <td>Pollada Tradicional</td>
+                <td>Plato</td>
+                <td>Pollo frito a presion, mote, papa, porcion cremas</td>
+                <td>pollada.jpg</td>
+                <td>19.00</td>
                 <td>
                     <a class="sinSubrayado" href="#" >
                         <div class="d-grid gap-2 col mx-auto ">
@@ -122,10 +124,11 @@
               </tr>
               <tr>
                 <td>2</td>
-                <td>Cumpleaños</td>
-                <td>Puede reservar su fecha especial para hacer los preparativos adecuados y así tenga la mejor celebración de su día tan especial. </td>
-                <td>cumple.jpg</td>
-                <td>200.00</td>
+                <td>Pollada Especial</td>
+                <td>Plato</td>
+                <td>Pollo frito a presion, choclo, papa pelada, lechuga, tomate, pepino, palta, aliño transparente, cremas</td>
+                <td>pollada.jpg</td>
+                <td>25.00</td>
                 <td>
                     <a class="sinSubrayado" href="#" >
                         <div class="d-grid gap-2 col mx-auto ">
@@ -142,10 +145,11 @@
               </tr>
               <tr>
                 <td>3</td>
-                <td>Reuniones Corporativas</td>
-                <td>Puede reservar su fecha especial para hacer los preparativos adecuados y así tenga la mejor celebración de su día tan especial. </td>
-                <td>reuCorp.jpg</td>
-                <td>250.00</td>
+                <td>Chicharron Especial</td>
+                <td>Entrada</td>
+                <td>Costilla de cerdo</td>
+                <td>chicharon.jpg</td>
+                <td>4.00</td>
                 <td>
                     <a class="sinSubrayado" href="#" >
                         <div class="d-grid gap-2 col mx-auto ">
@@ -160,13 +164,13 @@
                     </a>
                 </td>
               </tr>
-
               <tr>
                 <td>4</td>
-                <td>Delivery</td>
-                <td>Llevamos su producto a su hogar.</td>
-                <td>delivery.jpg</td>
-                <td>2.00</td>
+                <td>Coca Cola</td>
+                <td>Bebida</td>
+                <td>2 ltrs.</td>
+                <td>cocacola.jpg</td>
+                <td>9.00</td>
                 <td>
                     <a class="sinSubrayado" href="#" >
                         <div class="d-grid gap-2 col mx-auto ">
@@ -202,10 +206,10 @@
                 <td>0</td>
                 <td>0</td>
               </tr> -->
-          </table>  
-        </div>
-       <br>
-      </div> 
+            </table>  
+          </div>
+        <br>
+      </div>  
     </main>
 
     <!--JS-->

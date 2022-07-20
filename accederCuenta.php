@@ -76,7 +76,7 @@ $db = new Database();
   <div>
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index.php">
           <img src="/imagenes/logo.PNG" alt="" height="100">
         </a>
 
@@ -86,7 +86,7 @@ $db = new Database();
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+              <a class="nav-link" href="nosotros.php">NOSOTROS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#reservaEvento">RESERVA DE EVENTOS</a>
@@ -97,7 +97,7 @@ $db = new Database();
             <li class="nav-item">
               <a class="nav-link" href="#contacto">CONTACTO</a>
             </li>
-            <a href="accederCuenta.html">
+            <a href="accederCuenta.php">
               <button type="button" class="btn btn-primary btn-lg tipoLetraBoton">INICIAR SESIÓN</button>
             </a>
 
@@ -129,7 +129,7 @@ $db = new Database();
             nuestra página.
           </p>
         </div>
-        <a class="sinSubrayado" href="accederCuenta.html">
+        <a class="sinSubrayado" href="accederCuenta.php">
           <div class="d-grid gap-2 col-6 mx-auto">
             <button type="button" class="btn btn-primary letraRoboto negritaLetra botonOvalado" id="acceder">INICIAR SESIÓN</button> <br>
           </div>
@@ -158,7 +158,7 @@ $db = new Database();
             nuestra página.
           </p>
         </div>
-        <a class="sinSubrayado" href="accederCuenta.html">
+        <a class="sinSubrayado" href="accederCuenta.php">
           <div class="d-grid gap-2 col-6 mx-auto">
             <button type="button" class="btn btn-primary letraRoboto negritaLetra botonOvalado" id="acceder">INICIAR SESIÓN</button> <br>
           </div>
@@ -216,7 +216,7 @@ $db = new Database();
         <div class="row">
           <div class="col"></div>
           <div class="col-lg col-md-12 col-sm-12">
-            <a class="sinSubrayado" href="registrarCuenta.html">
+            <a class="sinSubrayado" href="registrarCuenta.php">
               <div class="d-grid gap-2 col-6 mx-auto">
                 <button type="submit" class="btn btn-primary letraRoboto negritaLetra botonOvalado">REGISTRARME</button>
               </div>

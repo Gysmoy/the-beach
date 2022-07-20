@@ -26,7 +26,7 @@ class Database
         $this->password = '';
         $this->charset = '';
         $this->connection = $this -> connect();
-        'Server=localhost;Database=master;Trusted_Connection=True;';
+        'Server=localhost;Database=RECREOCAMPESTRE;Trusted_Connection=True;';
     }
 
     /**
