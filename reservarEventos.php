@@ -115,9 +115,9 @@ include_once 'database/database.php';
               </tbody>
 
             </table>
-            <a class="sinSubrayado" href="reservarEventosFechaHora.php">
+            <a class="sinSubrayado">
               <div class="d-grid gap-2 col-6 mx-auto letraRoboto">
-                <button class="btn btn-primary tituloReservarEvento tamañoBotonReservar colorBoton  letraRoboto negritaLetra botonOvalado" type="button">¡Reservar ahora!</button>
+                <button id="reservar" class="btn btn-primary tituloReservarEvento tamañoBotonReservar colorBoton  letraRoboto negritaLetra botonOvalado" type="button">¡Reservar ahora!</button>
               </div>
             </a>
 
@@ -147,6 +147,14 @@ include_once 'database/database.php';
     })
 
     select.dispatchEvent(new Event('change'));
+
+    document.querySelector('#reservar').addEventListener('click', function() {
+      var data = {};
+      var value = select.value;
+      var option = document.querySelector(`[value="${value}"]`);
+      localStorage.setItem('servicio', option.getAttribute('data-servicio'));
+      location.href = './reservarEventosFechaHora.php';
+    })
   </script>
 </body>
 
