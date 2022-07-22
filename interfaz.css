@@ -49,9 +49,9 @@ html{
 }
 
 .btn-primary{
-    background-color: var(--verde);
+    /* background-color: var(--verde); */
 
-    --bs-btn-hover-bg: var(--verde);
+    /* --bs-btn-hover-bg: var(--verde); */
     --bs-btn-hover-border-color: var(--blanco);
 
 }

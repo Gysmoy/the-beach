@@ -10,6 +10,10 @@ if (isset($_GET['logout'])) {
   die;
 }
 
+if (isset($_SESSION['IdAdministrador'])) {
+  header('location: administradorCarta.php');
+  die;
+}
 
 if (isset($_SESSION['IdCliente'])) {
   header('location: miCuentaReservas.php');
@@ -26,6 +30,8 @@ if (
 
   $email = $_POST['email'];
   $password = $_POST['password'];
+
+  $type = 'C';
   $sql = "SELECT * FROM Cliente WHERE CorreoElectronico = ? AND Contraseña = ?";
 
   $query = $connection->prepare($sql);
@@ -35,10 +41,23 @@ if (
 
   if ($row) {
     $_SESSION = $row;
+    $_SESSION['rol'] = $type;
     header('location: miCuentaReservas.php');
     die;
   } else {
-    $message = 'Credenciales incorrectas';
+    $type = 'A';
+    $sql = "SELECT * FROM Administrador WHERE Correo = ? AND Contraseña = ?";
+    $query = $connection->prepare($sql);
+    $query->execute([$email, $password]);
+    $row = $query->fetch(PDO::FETCH_ASSOC);
+    if ($row) {
+      $_SESSION = $row;
+      $_SESSION['rol'] = $type;
+      header('location: administradorCarta.php');
+      die;
+    } else {
+      $message = 'Credenciales incorrectas';
+    }
   }
 }
 
@@ -180,16 +199,16 @@ $db = new Database();
     <!--Acceder-->
     <form method="POST">
       <div class="row mb-3 negritaLetra">
-        <label for="email" class="col-sm-2 col-form-label">Correo Electrónico:</label>
+        <label for="email" class="col-sm-4 col-form-label">Correo Electrónico:</label>
         <br>
-        <div class="col-sm-10">
+        <div class="col-sm-8">
           <input type="email" class="form-control" name="email" id="email">
         </div>
       </div>
       <div class="row mb-3 negritaLetra">
-        <label for="password" class="col-sm-2 col-form-label">Contraseña:</label>
+        <label for="password" class="col-sm-4 col-form-label">Contraseña:</label>
         <br>
-        <div class="col-sm-10">
+        <div class="col-sm-8">
           <input type="password" class="form-control" name="password" id="password">
         </div>
       </div>
